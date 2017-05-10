@@ -179,6 +179,7 @@ class Room extends ContentEntityBase implements RoomInterface {
     $fields['name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Name'))
       ->setDescription(t('The name of the Room entity.'))
+      ->setRequired(TRUE)
       ->setSettings(array(
         'max_length' => 250,
         'text_processing' => 0,

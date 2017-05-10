@@ -1,14 +1,14 @@
 {
-  "name": "drupal/rooms",
-  "type": "drupal-module",
+  "name": "cyberlex404/rooms",
+  "type": "drupal-module-custom",
   "description": "Room entity for booking",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/rooms",
+  "homepage": "https://github.com/cyberlex404/rooms",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/rooms",
-    "source": "http://cgit.drupalcode.org/rooms"
+    "issues": "https://github.com/cyberlex404/rooms/issues",
+    "source": "https://github.com/cyberlex404/rooms"
   },
   "require": { }
 }
