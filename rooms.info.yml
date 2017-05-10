@@ -1,0 +1,5 @@
+name: Rooms
+type: module
+description: Room entity for booking
+core: 8.x
+package: beBooking

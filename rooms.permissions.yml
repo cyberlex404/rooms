@@ -1,0 +1,22 @@
+add room entities:
+  title: 'Create new Room entities'
+
+administer room entities:
+  title: 'Administer Room entities'
+  description: 'Allow to access the administration form to configure Room entities.'
+  restrict access: true
+
+delete room entities:
+  title: 'Delete Room entities'
+
+edit room entities:
+  title: 'Edit Room entities'
+
+access room overview:
+  title: 'Access the Room overview page'
+
+view published room entities:
+  title: 'View published Room entities'
+
+view unpublished room entities:
+  title: 'View unpublished Room entities'

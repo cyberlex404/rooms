@@ -1,0 +1,5 @@
+entity.room.add_form:
+  route_name: entity.room.add_form
+  title: 'Add Room'
+  appears_on:
+    - entity.room.collection

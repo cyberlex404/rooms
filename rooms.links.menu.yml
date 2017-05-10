@@ -1,0 +1,14 @@
+
+# Room menu items definition
+entity.room.collection:
+  title: 'Room list'
+  route_name: entity.room.collection
+  description: 'List Room entities'
+  parent: system.admin_structure
+  weight: 100
+
+room.admin.structure.settings:
+  title: Room settings
+  description: 'Configure Room entities'
+  route_name: room.settings
+  parent: entity.room.collection

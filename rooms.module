@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains rooms.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function rooms_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the rooms module.
+    case 'help.page.rooms':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Room entity for booking') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function rooms_theme() {
+  return [
+    'rooms' => [
+      'template' => 'rooms',
+      'render element' => 'children',
+    ],
+  ];
+}
